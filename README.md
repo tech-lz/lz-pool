@@ -1,1 +1,1 @@
-# -lz-pool
+# lz-comp

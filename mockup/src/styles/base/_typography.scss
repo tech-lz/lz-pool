@@ -1,0 +1,32 @@
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Montserrat-Medium';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../assets/fonts/Montserrat-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat-Light';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../assets/fonts/Montserrat-Light.ttf');
+}
+
+body {
+  font-family: 'Montserrat-Medium', sans-serif;
+  font-weight: 400;
+  /*font-size: 16px;*/
+  //line-height: 1.7;
+  color: $color-text-default;
+}
+
+* {
+  font-size: $default-font-size;
+  font-family: 'Montserrat-Medium', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
